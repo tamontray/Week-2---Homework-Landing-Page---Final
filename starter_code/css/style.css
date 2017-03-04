@@ -50,8 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -62,21 +61,72 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
-  height: 500px;
+  margin: 0 auto;
 
 }
 
 header {
-
-}
-
-footer {
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 650px;
 }
 
 .logo {
+  padding-left:5%;
+  padding-top: 2%;
+}
 
+.slogan {
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.button {
+  height: 30px;
+  background-color: yellow;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  width: 150px;
+  padding: 6px;
+}
+
+section .benefits {
+  background-color: #f0efef;
+  height: 275px;
+}
+
+.benefits {
+  padding-top: 3%;
+  padding-left: 8%;
+}
+
+section .testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 350px;
+  padding-top: 100px;
+}
+
+.cta {
+  height: 60px;
+  background-color: yellow;
+  width: 100%;
+  padding-top: 18px;
+}
+
+footer {
+  height: 275px;
+  background-color: #121212;
+  padding-top: 3%;
+}
+
+.social {
+  width: 150px;
+  margin: 0 auto 100px auto;
+  padding-left: 30px;
 }
 
 /******************************************
@@ -84,5 +134,105 @@ footer {
 /*******************************************/
 
 
+.logo h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.slogan h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.button a {
+  font-weight: 800;
+  vertical-align: auto;
+  font-size: 14px;
+}
+
+.benefits h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+  padding-bottom: 10px;
+}
+
+.benefits p {
+  padding-bottom: 30px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+}
+
+ul {
+  padding-left: 50px;
+}
+
+.benefits li {
+  list-style-type: disc;
+  font-weight: 300;
+  color: #606161;
+  font-size: 13px;
+}
+
+blockquote {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 
+/* Blockquote did not auto italicizing. And when I entered
+font-weight:300 light; it still did not italicize. I had to 
+use font-style: italic, which worked, but I'm not sure it's "correc".*/
+
+
+.testimonial p {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.cta-button {
+
+  padding-top:4px;
+  border-radius: 5px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: #033048;
+  color: white;
+  text-align: center;
+  height: 25px;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.footer-logo {
+  color: yellow;
+  font-weight: 800;
+  font-size: 24px;
+  width: 100px;
+  margin: 0 auto 15px auto;
+
+}
+
+img {
+  margin: 6%;
+  height: 20px;
+}
+
+footer p {
+  color: white;
+  width: 150px;
+  margin: 0 auto;
+}
