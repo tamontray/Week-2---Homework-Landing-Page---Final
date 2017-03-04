@@ -190,7 +190,7 @@ blockquote {
 
 /* Blockquote did not auto italicize. And when I entered
 font-weight:300 light; it still did not italicize. I had to 
-use font-style: italic, which worked, but I'm not sure it's "correc".*/
+use font-style: italic, which worked, but I'm not sure it's "correct".*/
 
 
 .testimonial p {
