@@ -85,7 +85,7 @@ header {
 
 .button {
   height: 30px;
-  background-color: yellow;
+  background-color: #f9e42e;
   border-radius: 5px;
   text-align: center;
   margin: 20px auto;
@@ -112,7 +112,7 @@ section .testimonial {
 
 .cta {
   height: 60px;
-  background-color: yellow;
+  background-color: #f9e42e;
   width: 100%;
   padding-top: 18px;
 }
@@ -204,7 +204,6 @@ use font-style: italic, which worked, but I'm not sure it's "correct".*/
 
 
 .cta-button {
-
   padding-top:4px;
   border-radius: 5px;
   width: 150px;
@@ -218,7 +217,7 @@ use font-style: italic, which worked, but I'm not sure it's "correct".*/
 }
 
 .footer-logo {
-  color: yellow;
+  color: #f9e42e;
   font-weight: 800;
   font-size: 24px;
   width: 100px;
